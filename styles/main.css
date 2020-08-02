@@ -2052,16 +2052,98 @@ p > code {
   }
 }
 body {
-      background-color: #fffffffe !important;
+      background-color: #343435;
+    }.header {
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      .main-continer {
+        width: 80%;
+        margin: 0 auto;
+      }
+    
+    .post-body {
+      font-size: 16px !important
+    }
+    body {
+      color: #555;
+    }
+    .next-md-body {
+      color: #555;
+    }
+    .next-md-body h1, .next-md-body h2 {
+      border-bottom-color: #555;
+    }
+    .archive-timeline-box::after, .tag-timeline-wrapper::after {
+      background: #eeeeeefe;
+    }h1, h2, h3, h4, h5, h6 {
+      color: #555;
+    }
+    
+    .archive-timeline-title::before {
+      background-color: #555;
+    }
+    
+    .post-title-link::before {
+      background-color: #555;
+    }
+    
+    .node-title::before {
+      background-color: #555;
+    }a {
+      color: #555;
+    }
+    
+    .next-md-body a, .friends-box a  {
+      color: #555;
+      border-bottom: 1px solid #555;
+    }a:hover {
+      color: #222;
+    }
+    
+    .archive-timeline-box .tag-node:hover::before {
+      background-color: #222;
+    }
+    
+    .markdownIt-TOC a:hover {
+      color: #222;
+      border-bottom-color: #222;
+    }
+
+    .next-md-body a:hover, .friends-box a:hover {
+      color: #222;
+      border-bottom-color: #222;
     }
     .nav-toggle .line {
-      background-color: undefined !important;
+      background-color:  !important;
+    }
+      .nav-item a {
+        color:  #555;
+      }.nav-item a:hover {
+        color: #222;
+      }.nav-item-active {
+      background: #f9f9f9fe;
+    }
+
+    .nav-item:hover {
+      background: #f9f9f9fe;
+      color: rgba(0, 0, 0, 0.98);
+    }.site-author-image {
+      border-radius: 50%;
+    }
+    .site-author-image:hover {
+      transform: rotate(666turn);
+      transition-delay: 1s;
+      transition-property: all;
+      transition-duration: 59s;
+      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
-      color: #000;
-      border-bottom-color: #000;
+      color: #eee;
+      border-bottom-color: #eee;
     }.markdownIt-TOC a:hover {
-      color: #000;
-      border-bottom-color: #000;
+      color: #fff;
+      border-bottom-color: #fff;
     }.active-current > a {
       color: #fc6423 !important;
       border-bottom-color: #fc6423 !important;
@@ -2083,14 +2165,26 @@ body {
     }.bg-color {
       background-color: #fffffffe;
     }
+    .gemini .blog-header, .gemini .sidebar-wrapper, .gemini .article-wrapper, .gemini .post, .gemini .page, .gemini .section, .gemini .section-box, .gemini .sidebar-box, .gemini .friends-section {
+      border-radius: 10px;
+    }
+    .pisces .blog-header, .pisces .sidebar-wrapper, .pisces .article-wrapper, .pisces .section, .pisces .sidebar-box, .pisces .friends-section {
+      border-radius: 10px;
+    }
+    .site-meta {
+      background: #a9e34b !important;
+    }
     .head-top-line {
-      background: #222;
+      background: #a9e34b;
     }
     .brand {
-      background: transparent;
+      background: #a9e34bfe;
     }
-    .box-shadow-wrapper {
-      box-shadow: none !important;
+    .main-title, .brand {
+      color: #f1f3f5 !important;
+    }
+    .mist .site-title i {
+      background: #f1f3f5fe;
     }body {
       cursor: default;
     }a {
