@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raymomen.github.io/bolg/</id>
     <title>raymomen</title>
-    <updated>2020-08-05T03:48:30.370Z</updated>
+    <updated>2020-08-05T03:51:50.958Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raymomen.github.io/bolg/"/>
     <link rel="self" href="https://raymomen.github.io/bolg/atom.xml"/>
@@ -16,7 +16,10 @@
         <link href="https://raymomen.github.io/bolg/kai-tong-bo-ke-de-di-yi-tian/">
         </link>
         <updated>2020-08-05T03:08:08.000Z</updated>
-        <content type="html"><![CDATA[<p>😝经过为期一个多星期的学习，终于把博客配置好了，尽管还有很多东西没有完善好，但是基本的框架都已经初步成型了，以后会慢慢的增加更多的<img src="https://raymomen.github.io/bolg//post-images/1596596993095.jpg" alt="" loading="lazy"></p>
+        <content type="html"><![CDATA[<p>##序章##<br>
+😝经过为期一个多星期的学习，终于把博客配置好了，尽管还有很多东西没有完善好，但是基本的框架都已经初步成型了，以后会慢慢的增加更多的<br>
+<strong>2020,08,05</strong><br>
+<img src="https://raymomen.github.io/bolg//post-images/1596596993095.jpg" alt="" loading="lazy"></p>
 ]]></content>
     </entry>
     <entry>
