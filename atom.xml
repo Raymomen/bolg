@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jr3v8m.coding-pages.com/</id>
     <title>raymomen</title>
-    <updated>2020-08-05T03:07:54.627Z</updated>
+    <updated>2020-08-05T03:12:20.534Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jr3v8m.coding-pages.com/"/>
     <link rel="self" href="https://jr3v8m.coding-pages.com/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://jr3v8m.coding-pages.com/images/avatar.png</logo>
     <icon>https://jr3v8m.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, raymomen</rights>
+    <entry>
+        <title type="html"><![CDATA[开通博客的第一天]]></title>
+        <id>https://jr3v8m.coding-pages.com/kai-tong-bo-ke-de-di-yi-tian/</id>
+        <link href="https://jr3v8m.coding-pages.com/kai-tong-bo-ke-de-di-yi-tian/">
+        </link>
+        <updated>2020-08-05T03:08:08.000Z</updated>
+        <content type="html"><![CDATA[<p>😝经过为期一个多星期的学习，终于把博客配置好了，尽管还有很多东西没有完善好，但是基本的框架都已经初步成型了，以后会慢慢的增加更多的<img src="https://jr3v8m.coding-pages.com//post-images/1596596993095.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://jr3v8m.coding-pages.com/hello-gridea/</id>
