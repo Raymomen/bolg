@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raymomen.github.io/bolg/</id>
     <title>raymomen</title>
-    <updated>2020-08-07T13:57:36.666Z</updated>
+    <updated>2020-08-08T10:27:24.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raymomen.github.io/bolg/"/>
     <link rel="self" href="https://raymomen.github.io/bolg/atom.xml"/>
@@ -11,16 +11,19 @@
     <icon>https://raymomen.github.io/bolg/favicon.ico</icon>
     <rights>All rights reserved 2020, raymomen</rights>
     <entry>
-        <title type="html"><![CDATA[步骤]]></title>
+        <title type="html"><![CDATA[我的程序语言学习顺序]]></title>
         <id>https://raymomen.github.io/bolg/bu-zou/</id>
         <link href="https://raymomen.github.io/bolg/bu-zou/">
         </link>
         <updated>2020-08-07T13:48:56.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="基础知识">基础知识</h1>
+        <content type="html"><![CDATA[<p><img src="https://raymomen.github.io/bolg//post-images/1596881486201.jpg" alt="" loading="lazy"><br>
+#基础知识</p>
 <ul>
 <li>系统运行原理</li>
+<li>操作系统发展 Uinx &gt; Minix &gt; Linux(1991)包含<strong>深度Linux(Deepin)</strong>，<strong>Ubuntu</strong>都是基于<strong>Linux内核</strong>的操作系统</li>
 <li>内核</li>
-<li>linux内核<br>
+<li>linux内核</li>
+<li><img src="https://raymomen.github.io/bolg//post-images/1596881855081.bmp" alt="" loading="lazy"><br>
 <em>常用命令</em><br>
 <strong>HTML&gt;JS&gt;CSS</strong><br>
 <strong>C&gt;Vue=React</strong><br>
