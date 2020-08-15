@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raymomen.github.io/bolg/</id>
     <title>raymomen</title>
-    <updated>2020-08-09T04:43:55.765Z</updated>
+    <updated>2020-08-15T12:47:17.247Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raymomen.github.io/bolg/"/>
     <link rel="self" href="https://raymomen.github.io/bolg/atom.xml"/>
@@ -10,6 +10,77 @@
     <logo>https://raymomen.github.io/bolg/images/avatar.png</logo>
     <icon>https://raymomen.github.io/bolg/favicon.ico</icon>
     <rights>All rights reserved 2020, raymomen</rights>
+    <entry>
+        <title type="html"><![CDATA[C语言从入门到精通 Day2]]></title>
+        <id>https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day2/</id>
+        <link href="https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day2/">
+        </link>
+        <updated>2020-08-15T12:22:16.000Z</updated>
+        <content type="html"><![CDATA[<ol>
+<li>一个完成的C语言程序<br>
+#include&lt;stdio.h&gt;//包含头文件<br>
+#define height 10//定义常量</li>
+</ol>
+<p>int calculate(int long,int width);//函数声明<br>
+int main()主函数main</p>
+<p>{<br>
+int m_long;//定义整型变量,表示长度<br>
+int m_width;<br>
+int result</p>
+<pre><code>printf(&quot;长方形的长度是:%d\n&quot;,result)
+
+printf(&quot;请输出长度:\n&quot;);
+scanf(&quot;%d&amp;m_long);
+
+printf(&quot;请输出宽度:\n&quot;);
+scanf(&quot;%d&amp;m_width);
+
+result = calculate(m_long,m_width);
+printf(&quot;长方形的体积是:&quot;);
+printf(&quot;%d\n&quot;,result);
+return 0;
+}
+
+int calculate(int long,int width)
+{
+    int result = long*width*height;
+    return result;
+}</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C语言从入门到精通 Day 1]]></title>
+        <id>https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day-1/</id>
+        <link href="https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day-1/">
+        </link>
+        <updated>2020-08-14T13:34:15.000Z</updated>
+        <content type="html"><![CDATA[<p>我的第一行<br>
+/#include&lt;stdio.h&gt;/</p>
+<ol>
+<li>
+<p>include 指令<br>
+这个语句的的功能是进行有关的预处理操作,include称为文件包含命令,后面尖括号的内容称为头部文件</p>
+</li>
+<li>
+<p>空行<br>
+空行 . 空格 . 跳格并不是影响程序,有了这些空格规范输入程序代码才能变得自然美观</p>
+</li>
+<li>
+<p>main函数声明<br>
+这是声明mian函数为一个返回值,是整型函数.其中int称为关键字</p>
+</li>
+<li>
+<p>函数体<br>
+<code>#include&lt;stdio.h&gt;</code>         //头文件<br>
+<code>int main()</code>                    //函数声明,函数头<br>
+<code>{</code><br>
+<code>printf(&quot;hello,world!&quot;);</code>//输出要显示的字符串,括号内容则为字符串<br>
+<code>return 0;</code>//这行语句使main函数终止运行,并向操作系统返回一个整型常量0.<br>
+<code>}</code></p>
+</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[for循环练习]]></title>
         <id>https://raymomen.github.io/bolg/dceshi/</id>
