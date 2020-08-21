@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://raymomen.github.io/bolg/</id>
     <title>raymomen</title>
-    <updated>2020-08-21T12:54:54.931Z</updated>
+    <updated>2020-08-21T13:14:11.162Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://raymomen.github.io/bolg/"/>
     <link rel="self" href="https://raymomen.github.io/bolg/atom.xml"/>
@@ -11,7 +11,41 @@
     <icon>https://raymomen.github.io/bolg/favicon.ico</icon>
     <rights>All rights reserved 2020, raymomen</rights>
     <entry>
-        <title type="html"><![CDATA[C语言从入门到精通 Day 3]]></title>
+        <title type="html"><![CDATA[c语言从入门到精通 Day4 九九乘法表的输出]]></title>
+        <id>https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day4-jiu-jiu-cheng-fa-biao-de-shu-chu/</id>
+        <link href="https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day4-jiu-jiu-cheng-fa-biao-de-shu-chu/">
+        </link>
+        <updated>2020-08-21T13:00:14.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>#include &lt;stdio.h&gt;  
+int main()
+
+{
+    int iRow,iColumn;   /定义函数 iRow,iCoumn
+    for (iRow = 1; iRow &lt;= 9; iRow++)   /for循环iRow为乘法表口诀的行数
+    {
+        for(iColumn = 1;iColumn &lt;= iRow;iColumn++)  /根据iRow,iCoumn取值进行循环运算
+        {
+            printf(&quot;%d*%d=%d &quot;,iRow,iColumn,iRow*iColumn); /输出结果,注意%d后面需加空格,不然会导致连续显示,不美观
+        }
+        printf(&quot;\n&quot;);   /为每一行结束进行换行
+    }
+
+}
+</code></pre>
+<p><em>输出结果</em><br>
+1<em>1=1<br>
+2</em>1=2 2<em>2=4<br>
+3</em>1=3 3<em>2=6 3</em>3=9<br>
+4<em>1=4 4</em>2=8 4<em>3=12 4</em>4=16<br>
+5<em>1=5 5</em>2=10 5<em>3=15 5</em>4=20 5<em>5=25<br>
+6</em>1=6 6<em>2=12 6</em>3=18 6<em>4=24 6</em>5=30 6<em>6=36<br>
+7</em>1=7 7<em>2=14 7</em>3=21 7<em>4=28 7</em>5=35 7<em>6=42 7</em>7=49<br>
+8<em>1=8 8</em>2=16 8<em>3=24 8</em>4=32 8<em>5=40 8</em>6=48 8<em>7=56 8</em>8=64<br>
+9<em>1=9 9</em>2=18 9<em>3=27 9</em>4=36 9<em>5=45 9</em>6=54 9<em>7=63 9</em>8=72 9*9=81</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C语言从入门到精通 Day 3 for循环]]></title>
         <id>https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day-3/</id>
         <link href="https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day-3/">
         </link>
@@ -22,7 +56,7 @@ for语句的一般形式  for(表达式1;表达式2;表达式3;)<br>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[C语言从入门到精通 Day2]]></title>
+        <title type="html"><![CDATA[C语言从入门到精通 Day2 完整的c语言程序架构]]></title>
         <id>https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day2/</id>
         <link href="https://raymomen.github.io/bolg/c-yu-yan-cong-ru-men-dao-jing-tong-day2/">
         </link>

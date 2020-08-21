@@ -2129,15 +2129,6 @@ body {
     .nav-item:hover {
       background: #f9f9f9fe;
       color: rgba(0, 0, 0, 0.98);
-    }.site-author-image {
-      border-radius: 50%;
-    }
-    .site-author-image:hover {
-      transform: rotate(666turn);
-      transition-delay: 1s;
-      transition-property: all;
-      transition-duration: 59s;
-      transition-timing-function: cubic-bezier(.34,0,.84,1);
     }.markdownIt-TOC a {
       color: #eee;
       border-bottom-color: #eee;
@@ -2185,8 +2176,6 @@ body {
     }
     .mist .site-title i {
       background: #f1f3f5fe;
-    }.box-scale > #landlord {
-      transform: scale([0,1]);
     }body {
       cursor: default;
     }a {
